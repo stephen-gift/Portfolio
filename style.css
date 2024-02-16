@@ -280,6 +280,14 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+.experience-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .about-details-container {
   justify-content: center;
@@ -354,21 +362,30 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
 article .icon {
   cursor: default;
 }
+article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .color-container {
+  /* display: flex; */
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
 }
