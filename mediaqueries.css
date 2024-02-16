@@ -45,6 +45,10 @@
   .about-containers {
     margin-top: 0;
   }
+  #profile {
+    height: 100vh;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -59,7 +63,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 100vh;
     margin-bottom: 0;
   }
   article {
